@@ -1,7 +1,7 @@
 name = "platform"
 
 [next]
-t = 1
+t = 25
 i = 1
 p = 1
 adr = 1
