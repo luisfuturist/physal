@@ -1,34 +1,25 @@
-# TODO
+# TODO — platform
 
-- Plugin system
-- Permission system
-- ECS
-- Event system
-- Physics system
-- Render system
-- Audio system
-- Config system
-- Command system
-- UI & HUD
-
-- Refactor event system to use our internal typed lib
-  - Expose all the event emitters as a wrapper around that typed lib
-- Pre-render bootloader static parts and then hydrate the dynamic parts
-
-- Setup linter and formatter
-- Setup typechecker
-- Update docs and README.md
-
-- Move app devtools to another repo
-
-- Validating version already installed for joining a server that needs a specific version of a plugin
-- Sign and verify plugins
-- Create a plugin marketplace with rating and reviews
-
-- Add permission system for plugin fetch and event systems
-  - (only explicitly allowed plugins can fetch and emit certain events)
-  - for e.g., the plugin hello-world can only listen to event 'theme-toggle.onThemeChange' (which can come from theme-toggle plugin), if the user configured explicitly app settings for hello-world to listen to events 'theme-toggle.onThemeChange' or 'theme-toggle'.
-- Improve security on message
-- Deploy plugin SDK as CDN
-
-- Allow plugins to expose slots for other plugins to be injected into by the app.
+- [ ] T-001 Plugin system
+- [ ] T-002 Permission system
+- [ ] T-003 ECS
+- [ ] T-004 Event system
+- [ ] T-005 Physics system
+- [ ] T-006 Render system
+- [ ] T-007 Audio system
+- [ ] T-008 Config system
+- [ ] T-009 Command system
+- [ ] T-010 UI & HUD
+- [ ] T-011 Refactor event system to use our internal typed lib Expose all the event emitters as a wrapper around that typed lib
+- [ ] T-012 Pre-render bootloader static parts and then hydrate the dynamic parts
+- [ ] T-013 Setup linter and formatter
+- [ ] T-014 Setup typechecker
+- [ ] T-015 Update docs and README.md
+- [ ] T-016 Move app devtools to another repo
+- [ ] T-017 Validating version already installed for joining a server that needs a specific version of a plugin
+- [ ] T-018 Sign and verify plugins
+- [ ] T-019 Create a plugin marketplace with rating and reviews
+- [ ] T-020 Add permission system for plugin fetch and event systems (only explicitly allowed plugins can fetch and emit certain events) for e.g., the plugin hello-world can only listen to event 'theme-toggle.onThemeChange' (which can come from theme-toggle plugin), if the user configured explicitly app settings for hello-world to listen to events 'theme-toggle.onThemeChange' or 'theme-toggle'.
+- [ ] T-021 Improve security on message
+- [ ] T-022 Deploy plugin SDK as CDN
+- [ ] T-023 Allow plugins to expose slots for other plugins to be injected into by the app.

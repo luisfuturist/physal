@@ -12,5 +12,14 @@
     "dev": "bun run --filter='./examples/bootloaders/*' --filter='./examples/plugins/*' --filter='./examples/pcrs/*' dev",
     "build": "bun run --filter='./examples/bootloaders/*' --filter='./examples/plugins/*' --filter='./examples/pcrs/*' build",
     "preview": "bun run --filter='./examples/bootloaders/*' --filter='./examples/plugins/*' --filter='./examples/pcrs/*' preview"
+  },
+  "devDependencies": {
+    "assemblyscript": "^0.28.9"
+  },
+  "dependencies": {
+    "chokidar": "^5.0.0",
+    "dedent": "^1.7.0",
+    "quickjs-emscripten": "^0.31.0",
+    "typescript": "^5.9.3"
   }
 }
